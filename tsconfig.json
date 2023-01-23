@@ -2,11 +2,14 @@
   "exclude": [
     "./node_modules"
   ],
+
   "include": [
     "tests/**/*",
-    "src/**/*"
+    "src"
   ],
+
   "compilerOptions": {
+    "baseUrl": "src",
     "target": "es5",
     "lib": [
       "dom",
