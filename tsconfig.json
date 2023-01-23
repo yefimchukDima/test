@@ -1,4 +1,13 @@
 {
+  "exclude": [
+    "./node_modules"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+  "typeRoots": [
+    "./node_modules/@types",
+  ],
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -20,7 +29,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+
 }
