@@ -3,10 +3,8 @@
     "./node_modules"
   ],
   "include": [
+    "tests/**/*",
     "src/**/*"
-  ],
-  "typeRoots": [
-    "./node_modules/@types",
   ],
   "compilerOptions": {
     "target": "es5",
